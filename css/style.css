@@ -1,0 +1,275 @@
+html {
+  min-height: 100%;
+  height: 100%;
+  position: relative; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+body {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  line-height: normal; }
+
+.site-container {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 104px; }
+
+.site-footer {
+  background-color: #3b434c;
+  padding: 41px;
+  position: absolute;
+  width: 100%;
+  bottom: 0; }
+  .site-footer .copyright {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 16px; }
+
+h1 {
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #3b434c; }
+  h1 span {
+    font-family: inherit;
+    font-weight: inherit;
+    color: #f7600e; }
+
+h2 {
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #3b434c; }
+  h2 span {
+    font-family: inherit;
+    font-weight: inherit;
+    color: #f7600e; }
+
+p {
+  font-size: 16px;
+  color: #3b434c;
+  font-family: 'Open Sans', sans-serif; }
+
+button:focus {
+  outline: none; }
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  border-radius: 9px;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  color: #3b434c;
+  font-weight: 300; }
+
+.content-1 {
+  width: 100%;
+  position: relative; }
+  .content-1 .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 100px 0;
+    background: url("../images/bg-1_01.png") no-repeat center;
+    background-size: cover; }
+    .content-1 .inner .vertical-middle {
+      vertical-align: middle;
+      display: inline-block;
+      width: 100%;
+      line-height: normal; }
+    .content-1 .inner h1 {
+      color: #ffffff; }
+    .content-1 .inner p {
+      font-size: 25px;
+      color: #ffffff;
+      font-family: 'Open Sans', sans-serif; }
+    .content-1 .inner .go-to {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      margin-left: -17px;
+      cursor: pointer; }
+    .content-1 .inner .button {
+      margin: 50px 15px 0;
+      height: 50px;
+      min-width: 210px;
+      padding: 0 20px;
+      max-width: 100%;
+      -webkit-border-radius: 9px;
+      -moz-border-radius: 9px;
+      -ms-border-radius: 9px;
+      border-radius: 9px;
+      cursor: pointer;
+      line-height: 50px;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      color: #ffffff;
+      display: inline-block;
+      border: none; }
+      .content-1 .inner .button:hover {
+        background-color: #f7600e; }
+    .content-1 .inner .menu {
+      display: inline-block;
+      float: right;
+      cursor: pointer;
+      position: relative;
+      margin-top: -50px; }
+      .content-1 .inner .menu .text {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        display: inline-block;
+        vertical-align: top; }
+      .content-1 .inner .menu .gamburger {
+        display: inline-block;
+        width: 26px;
+        height: 20px;
+        position: relative;
+        margin-left: 20px; }
+        .content-1 .inner .menu .gamburger span {
+          height: 2px;
+          width: 100%;
+          background-color: #ffffff;
+          position: absolute;
+          top: 50%;
+          margin-top: -1px; }
+          .content-1 .inner .menu .gamburger span:first-child {
+            top: 0;
+            bottom: auto;
+            margin: 0; }
+          .content-1 .inner .menu .gamburger span:last-child {
+            top: auto;
+            bottom: 0;
+            margin: 0; }
+
+.content-2 {
+  padding: 100px 0;
+  background-color: #ffffff; }
+
+.services {
+  text-align: center;
+  max-width: 170px;
+  margin: 0 auto; }
+  .services .image {
+    height: 61px;
+    text-align: center;
+    margin-bottom: 65px; }
+    .services .image img {
+      display: inline-block;
+      max-width: 100%; }
+  .services .title {
+    font-size: 16px;
+    color: #3b434c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    height: 45px;
+    position: relative;
+    overflow: hidden; }
+    .services .title a {
+      font-size: inherit;
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit; }
+  .services .text {
+    margin-top: 5px;
+    line-height: 26px;
+    height: 78px;
+    position: relative;
+    overflow: hidden; }
+
+.content-3 {
+  padding: 100px 0;
+  background: url("../images/bg-2_02.png") no-repeat center;
+  background-size: cover; }
+  .content-3 input[type="email"] {
+    width: 560px;
+    max-width: 100%;
+    margin: 0 15px;
+    vertical-align: top;
+    display: inline-block; }
+  .content-3 button {
+    margin: 0 15px;
+    height: 50px;
+    min-width: 270px;
+    padding: 0 20px;
+    max-width: 100%;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    background-color: #f7600e;
+    vertical-align: middle; }
+
+.content-4 {
+  padding-top: 85px;
+  padding-bottom: 110px; }
+  .content-4 p {
+    line-height: 30px; }
+
+.our-works-block {
+  margin-top: 90px;
+  margin-bottom: 110px; }
+  .our-works-block .item .inner {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    border-radius: 9px; }
+    .our-works-block .item .inner .img {
+      position: relative;
+      display: block;
+      width: 100%; }
+    .our-works-block .item .inner .mask {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-color: rgba(247, 96, 14, 0.9); }
+      .our-works-block .item .inner .mask .cont {
+        display: block;
+        position: absolute;
+        width: 100%;
+        padding: 0 50px;
+        height: 200px;
+        max-height: 100%;
+        overflow: hidden;
+        border: solid 1px #ff0000;
+        top: 50%;
+        margin-top: -100px; }
+
+.our-works-block-show-more {
+  font-size: 16px;
+  color: #3b434c;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

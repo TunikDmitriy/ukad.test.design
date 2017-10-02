@@ -1,0 +1,317 @@
+@import "scss_lib/lib";
+
+html {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  line-height: normal;
+}
+
+.site-container {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 104px;
+}
+
+.site-footer {
+  background-color: #3b434c;
+  padding: 41px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  .copyright {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+  }
+}
+
+h1 {
+  font-size: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #3b434c;
+  span {
+    font-family: inherit;
+    font-weight: inherit;
+    color: #f7600e;
+  }
+}
+h2 {
+  font-size: 35px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #3b434c;
+  span {
+    font-family: inherit;
+    font-weight: inherit;
+    color: #f7600e;
+  }
+}
+
+p {
+  font-size: 16px;
+  color: #3b434c;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+  height: 50px;
+  line-height: 50px;
+  padding: 0 25px;
+  @include border-radius(9px);
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  color: #3b434c;
+  font-weight: 300;
+}
+
+.content-1 {
+  width: 100%;
+  position: relative;
+  .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 100px 0;
+    background: url("../images/bg-1_01.png") no-repeat center;
+    background-size: cover;
+    .vertical-middle {
+      vertical-align: middle;
+      display: inline-block;
+      width: 100%;
+      line-height: normal;
+    }
+    h1 {
+      color: #ffffff;
+    }
+    p {
+      font-size: 25px;
+      color: #ffffff;
+      font-family: 'Open Sans', sans-serif;
+    }
+    .go-to {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      margin-left: -17px;
+      cursor: pointer;
+    }
+    .button {
+      margin: 50px 15px 0;
+      height: 50px;
+      min-width: 210px;
+      padding: 0 20px;
+      max-width: 100%;
+      @include border-radius(9px);
+      cursor: pointer;
+      line-height: 50px;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      color: #ffffff;
+      display: inline-block;
+      border: none;
+      &:hover {
+        background-color: #f7600e;
+      }
+    }
+    .menu {
+      display: inline-block;
+      float: right;
+      cursor: pointer;
+      position: relative;
+      margin-top: -50px;
+      .text {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        display: inline-block;
+        vertical-align: top;
+      }
+      .gamburger {
+        display: inline-block;
+        width: 26px;
+        height: 20px;
+        position: relative;
+        margin-left: 20px;
+        span {
+          height: 2px;
+          width: 100%;
+          background-color: #ffffff;
+          position: absolute;
+          top: 50%;
+          margin-top: -1px;
+          &:first-child {
+            top: 0;
+            bottom: auto;
+            margin: 0;
+          }
+          &:last-child {
+            top: auto;
+            bottom: 0;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.content-2 {
+  padding: 100px 0;
+  background-color: #ffffff;
+}
+
+.services {
+  text-align: center;
+  max-width: 170px;
+  margin: 0 auto;
+  .image {
+    height: 61px;
+    text-align: center;
+    margin-bottom: 65px;
+    img {
+      display: inline-block;
+      max-width: 100%;
+    }
+  }
+  .title {
+    font-size: 16px;
+    color: #3b434c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+    height: 45px;
+    position: relative;
+    overflow: hidden;
+    a {
+      font-size: inherit;
+      color: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+    }
+  }
+  .text {
+    margin-top: 5px;
+    line-height: 26px;
+    height: 78px;
+    position: relative;
+    overflow: hidden;
+  }
+}
+
+.content-3 {
+  padding: 100px 0;
+  background: url("../images/bg-2_02.png") no-repeat center;
+  background-size: cover;
+
+  input[type="email"] {
+    width: 560px;
+    max-width: 100%;
+    margin: 0 15px;
+    vertical-align: top;
+    display: inline-block;
+  }
+  button {
+    margin: 0 15px;
+    height: 50px;
+    min-width: 270px;
+    padding: 0 20px;
+    max-width: 100%;
+    @include border-radius(9px);
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    background-color: #f7600e;
+    vertical-align: middle;
+  }
+}
+
+.content-4 {
+  padding-top: 85px;
+  padding-bottom: 110px;
+  p {
+    line-height: 30px;
+  }
+}
+
+.our-works-block {
+  margin-top: 90px;
+  margin-bottom: 110px;
+  .item {
+    .inner {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      @include border-radius(9px);
+      .img {
+        position: relative;
+        display: block;
+        width: 100%;
+      }
+      .mask {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba(247, 96, 14, 0.9);
+        .cont {
+          display: block;
+          position: absolute;
+          width: 100%;
+          padding: 0 50px;
+          height: 200px;
+          max-height: 100%;
+          overflow: hidden;
+          border: solid 1px #ff0000;
+          top: 50%;
+          margin-top: -100px;
+          .title {}
+          .text {}
+          .link {}
+        }
+      }
+    }
+
+  }
+}
+.our-works-block-show-more {
+  font-size: 16px;
+  color: #3b434c;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
