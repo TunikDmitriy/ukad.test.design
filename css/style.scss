@@ -850,6 +850,9 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     display: block;
     top: 50px;
     right: 15px;
+    @include max-screen(1365px){
+      top: 40px;
+    }
   }
 
   nav {
@@ -892,6 +895,118 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     img {
       display: inline-block;
       margin: 0 10px;
+    }
+  }
+
+  @include max-screen(767px){
+    .container {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    nav {
+      ul {
+        li {
+          margin: 10px 0;
+          a {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+    .separator {
+      margin: 30px auto;
+    }
+
+    .social-icons {
+      img {
+        display: inline-block;
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+.modal {
+  .modal-dialog {
+    width: 760px;
+    max-width: 100%;
+    background-color: #ffffff;
+    .close {
+      width: 38px;
+      height: 38px;
+      @include border-radius(50%);
+      position: absolute;
+      opacity: 1;
+      overflow: hidden;
+      right: -19px;
+      top: -19px;
+      z-index: 2;
+    }
+    .modal-content {
+      @include border-radius(0);
+      @include box-shadow(none);
+      width: 615px;
+      padding: 40px 30px 60px 30px;
+      margin: 0 auto;
+      max-width: 100%;
+      box-sizing: border-box;
+      border: none;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    .form-box {
+      margin-top: 40px;
+    }
+    .form-group {
+      margin-bottom: 30px;
+    }
+    button {
+      height: 50px;
+      padding: 0 20px;
+      width: 100%;
+      @include border-radius(9px);
+      cursor: pointer;
+      line-height: 50px;
+      text-align: center;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      color: #ffffff;
+      display: inline-block;
+      border: none;
+      background-color: #f7600e;
+      vertical-align: middle;
+    }
+  }
+  @include max-screen(991px){
+    .modal-dialog {
+      width: 660px;
+    }
+  }
+  @include max-screen(767px){
+    .modal-dialog {
+      width: auto;
+      .close {
+        width: 38px;
+        height: 38px;
+        @include border-radius(50%);
+        position: absolute;
+        opacity: 1;
+        overflow: hidden;
+        right: 10px;
+        top: 10px;
+      }
+      .form-box {
+        margin-top: 30px;
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      button {
+        height: 40px;
+        line-height: 40px;
+      }
     }
   }
 }

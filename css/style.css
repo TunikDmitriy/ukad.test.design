@@ -711,6 +711,9 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     display: block;
     top: 50px;
     right: 15px; }
+    @media screen and (max-width: 1365px) {
+      .menu-modal .closer {
+        top: 40px; } }
   .menu-modal nav {
     text-align: center; }
     .menu-modal nav ul {
@@ -744,5 +747,99 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     .menu-modal .social-icons img {
       display: inline-block;
       margin: 0 10px; }
+  @media screen and (max-width: 767px) {
+    .menu-modal .container {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+    .menu-modal nav ul li {
+      margin: 10px 0; }
+      .menu-modal nav ul li a {
+        font-size: 28px; }
+    .menu-modal .separator {
+      margin: 30px auto; }
+    .menu-modal .social-icons img {
+      display: inline-block;
+      margin: 0 5px; } }
+
+.modal .modal-dialog {
+  width: 760px;
+  max-width: 100%;
+  background-color: #ffffff; }
+  .modal .modal-dialog .close {
+    width: 38px;
+    height: 38px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    opacity: 1;
+    overflow: hidden;
+    right: -19px;
+    top: -19px;
+    z-index: 2; }
+  .modal .modal-dialog .modal-content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 615px;
+    padding: 40px 30px 60px 30px;
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: none; }
+  .modal .modal-dialog h2 {
+    margin-bottom: 20px; }
+  .modal .modal-dialog .form-box {
+    margin-top: 40px; }
+  .modal .modal-dialog .form-group {
+    margin-bottom: 30px; }
+  .modal .modal-dialog button {
+    height: 50px;
+    padding: 0 20px;
+    width: 100%;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    border-radius: 9px;
+    cursor: pointer;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-block;
+    border: none;
+    background-color: #f7600e;
+    vertical-align: middle; }
+@media screen and (max-width: 991px) {
+  .modal .modal-dialog {
+    width: 660px; } }
+@media screen and (max-width: 767px) {
+  .modal .modal-dialog {
+    width: auto; }
+    .modal .modal-dialog .close {
+      width: 38px;
+      height: 38px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      position: absolute;
+      opacity: 1;
+      overflow: hidden;
+      right: 10px;
+      top: 10px; }
+    .modal .modal-dialog .form-box {
+      margin-top: 30px; }
+    .modal .modal-dialog .form-group {
+      margin-bottom: 20px; }
+    .modal .modal-dialog button {
+      height: 40px;
+      line-height: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
